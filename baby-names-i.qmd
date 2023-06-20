@@ -1,0 +1,22 @@
+---
+title: "BabyNames"
+author: "Ritu Bellala"
+format: html
+editor: visual
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+
+```
+
+```{r}
+ x <- read_csv("data/i_names.csv", show_col_types = FALSE)
+```
+
+```{r}
+```
+
